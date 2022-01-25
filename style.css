@@ -1,7 +1,12 @@
+@import url(https://www.1001fonts.com/lazenby-computer-font.html);
+
 body {
     background-color: cadetblue;
 }
 
-.topbox {
-    height: 100px
+.header {
+    background-color: #f2f2ff;
+    text-align: center;
+    height: 80px;
+    font-size: 25px;
 }
