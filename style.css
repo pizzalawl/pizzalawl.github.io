@@ -25,3 +25,10 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.about {
+    background-color: #f2f2ff;
+    width: 500px;
+    outline: 2px solid black;
+    margin: auto;
+}
