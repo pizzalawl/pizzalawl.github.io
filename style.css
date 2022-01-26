@@ -1,12 +1,27 @@
-@import url(https://www.1001fonts.com/lazenby-computer-font.html);
+@font-face {
+    font-family: good-times;
+    src: url("fonts/good-times.rg-regular.otf");
+}
 
 body {
-    background-color: cadetblue;
+    background-image: url(pics/crumbled-paper.png);
 }
 
 .header {
     background-color: #f2f2ff;
+    height: 70px;
+    width: 390px;
+    outline: 5px solid black;
+    margin: auto;
     text-align: center;
-    height: 80px;
     font-size: 25px;
+    font-family: 'good-times', Arial, sans-serif;
+}
+
+.center-pic {
+    display: block;
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
