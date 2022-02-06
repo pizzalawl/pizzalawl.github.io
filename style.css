@@ -24,11 +24,17 @@ body {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+    outline: 5px solid black;
 }
 
 .about {
     background-color: #f2f2ff;
     width: 500px;
     outline: 2px solid black;
+    margin: auto;
+}
+
+.aboutmebutton {
+    text-align: center;
     margin: auto;
 }
