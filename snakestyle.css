@@ -6,3 +6,27 @@
     text-decoration-line: underline;
 }
 
+#game {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#snake {
+    width: 20px;
+    height: 20px;
+    background-color: chartreuse;
+    position: relative;
+    top: 380px;
+    left: 580px;
+    animation: snakeright 4s infinite;
+}
+
+@keyframes snakeleft{
+    100%{left: -20px}
+}
+
+@keyframes snakeup{
+    100%{top: -20px}
+}
