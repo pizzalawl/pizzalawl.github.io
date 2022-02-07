@@ -3,7 +3,7 @@ var game = document.getElementById('game');
 var classList = snake.classList;
 
 function onStart() {
-    snake.classList.add("animateleft");
+    up()
 }
 
 function up() {
