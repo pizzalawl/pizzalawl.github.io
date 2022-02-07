@@ -20,7 +20,14 @@
     position: relative;
     top: 380px;
     left: 580px;
-    animation: snakeright 4s infinite;
+}
+
+.animateleft {
+    animation: snakeleft 3s infinite linear;
+}
+
+.animateup {
+    animation: snakeup 3s infinite linear;
 }
 
 @keyframes snakeleft{
