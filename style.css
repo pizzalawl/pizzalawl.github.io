@@ -1,0 +1,51 @@
+@font-face {
+    font-family: good-times;
+    src: url("fonts/good-times.rg-regular.otf");
+}
+
+body {
+    background-image: url(pics/crumbled-paper.png);
+}
+
+#poetry-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: #f2f2ff;
+    height: 70px;
+    width: 390px;
+    outline: 5px solid black;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'good-times', Arial, sans-serif;
+}
+
+.center-pic {
+    display: block;
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 5px solid black;
+}
+
+.about {
+    background-color: #f2f2ff;
+    width: 500px;
+    outline: 2px solid black;
+    margin: auto;
+}
+
+.aboutmebutton {
+    text-align: center;
+    margin: auto;
+}
+
+.topbuttons {
+    text-align: center;
+    margin: auto;
+}
+
